@@ -172,7 +172,7 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
 @Composable
 fun LowerProfileSection(modifier: Modifier = Modifier) {
     var name by remember { mutableStateOf("M Saikrishna Pattnaik") }
-    var companyName by remember { mutableStateOf("ABC Company") }
+    var companyName by remember { mutableStateOf("764001") }
     var emailAddress by remember { mutableStateOf("XYZ@gmail.com") }
     var phoneNumber by remember { mutableStateOf("+91 -xxxxxxxxxx") }
     Column(
@@ -220,7 +220,7 @@ fun LowerProfileSection(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(15.dp))
         Text(
-            text = "Company Name",
+            text = "Pincode",
             fontSize = 14.sp,
             color = Color(0xFFABABAB),
             fontWeight = FontWeight.Medium,
